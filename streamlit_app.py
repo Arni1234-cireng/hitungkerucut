@@ -5,5 +5,5 @@ r = st.number_input("masukan jari-jari (cm):",0)
 t = st.number_input("masukan tinggi (cm):",0)
 if st.button("hitung volume", type="primary"):
   v = math.pi*(r**2)*t
-  st.success('volume kerucut adalah!', v="✅")
+  st.success('volume kerucut adalah!', v="2f")
   
